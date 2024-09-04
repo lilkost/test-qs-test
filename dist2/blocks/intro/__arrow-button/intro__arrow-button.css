@@ -1,0 +1,14 @@
+.intro__arrow-button {
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+  margin-top: 25px;
+  margin-right: 10px;
+  transition: 0.2s ease-in-out;
+}
+
+.intro__arrow-button:hover {
+  filter: brightness(150%);
+}

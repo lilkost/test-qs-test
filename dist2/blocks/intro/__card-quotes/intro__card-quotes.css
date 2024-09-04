@@ -1,0 +1,5 @@
+.intro__card-quotes {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

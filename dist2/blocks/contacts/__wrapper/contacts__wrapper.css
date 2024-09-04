@@ -1,0 +1,13 @@
+.contacts__wrapper {
+  width: 1300px;
+  display: flex;
+}
+
+@media screen and (max-width: 1300px) {
+  .contacts__wrapper {
+    max-width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}

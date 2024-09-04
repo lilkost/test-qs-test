@@ -1,0 +1,11 @@
+.header__bottom-link {
+  text-decoration: none;
+  color: #0e0922;
+  font-size: 14px;
+  line-height: 18.62px;
+  transition: 0.4s ease-in-out;
+}
+
+.header__bottom-link:hover {
+  opacity: 0.4;
+}

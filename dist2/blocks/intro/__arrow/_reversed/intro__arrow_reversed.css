@@ -1,0 +1,4 @@
+.intro__arrow_reversed {
+  transform: rotate(180deg);
+  margin-left: 6px;
+}

@@ -1,0 +1,5 @@
+.intro__card-img_rotated {
+  position: absolute;
+  bottom: 78px;
+  z-index: 0;
+}

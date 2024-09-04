@@ -1,0 +1,10 @@
+.contacts__right {
+  padding-left: 185px;
+}
+
+@media screen and (max-width: 1300px) {
+  .contacts__right {
+    padding-left: 0;
+    padding-top: 50px;
+  }
+}

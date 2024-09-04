@@ -1,0 +1,8 @@
+.header__bottom-soc {
+  transition: 0.4s ease-in-out;
+  text-decoration: none;
+}
+
+.header__bottom-soc:hover {
+  opacity: 0.4;
+}

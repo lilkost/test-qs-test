@@ -1,0 +1,40 @@
+.contacts__submit {
+  background-image: url(/images/utils/subscribe.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  color: #ffffff;
+  min-width: 43px;
+  min-height: 43px;
+  background-color: #090b18;
+  border-radius: 1000px;
+  transition: 0.4s ease-in-out;
+  cursor: pointer;
+  font-size: 14px;
+  line-height: 18.62px;
+  position: absolute;
+  top: 24px;
+  right: 45px;
+  text-align: center;
+}
+
+.contacts__submit:hover {
+  content: 'Подписаться';
+  width: 148px;
+  height: 42px;
+  background-position: 125px;
+}
+
+.contacts__submit::before {
+  content: '';
+  position: absolute;
+  left: -5px;
+  top: 11px;
+}
+
+.contacts__submit:hover::before {
+  content: 'Подписаться';
+  width: 148px;
+  padding-right: 100px;
+  height: 42px;
+  background-position: right;
+}

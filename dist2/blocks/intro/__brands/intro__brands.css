@@ -1,0 +1,13 @@
+.intro__brands {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+@media screen and (max-width: 1300px) {
+  .intro__brands {
+    flex-direction: column;
+    justify-content: center;
+  }
+}

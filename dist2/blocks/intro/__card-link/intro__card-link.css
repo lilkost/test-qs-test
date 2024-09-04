@@ -1,0 +1,15 @@
+.intro__card-link {
+  width: 64px;
+  height: 64px;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  transition: 0.4s ease-in-out;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.intro__card-link:hover {
+  width: 70px;
+  height: 70px;
+}

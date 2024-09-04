@@ -1,0 +1,7 @@
+.eshop__images2 {
+  display: flex;
+  flex-direction: column;
+  max-height: 400px;
+  padding-left: 10px;
+  justify-content: space-between;
+}

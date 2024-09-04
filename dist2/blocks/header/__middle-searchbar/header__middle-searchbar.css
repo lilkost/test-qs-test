@@ -1,0 +1,27 @@
+.header__middle-searchbar {
+  width: 474px;
+  height: 48px;
+  border-radius: 1000px;
+  padding-left: 18px;
+  font-size: 14px;
+  line-height: 18.62px;
+  border: none;
+  outline: 1px solid #e7e7e7;
+}
+
+.header__middle-searchbar::placeholder {
+  color: #909090;
+}
+
+.header__middle-searchbar:focus {
+  outline: 1px solid rgb(72, 106, 253);
+}
+
+@media screen and (max-width: 1000px) {
+  .header__middle-searchbar {
+    max-width: 300px;
+  }
+  .header__middle-searchbar::placeholder {
+    visibility: hidden;
+  }
+}

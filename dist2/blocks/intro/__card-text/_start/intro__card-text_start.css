@@ -1,0 +1,8 @@
+.intro__card-text_start {
+  display: flex;
+  justify-content: space-between;
+  width: 84%;
+  padding-bottom: 18px;
+
+  align-items: start;
+}

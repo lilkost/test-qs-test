@@ -1,0 +1,7 @@
+.header__top-list-item {
+  font-size: 12px;
+  line-height: 15.6px;
+  color: #090b18;
+  display: flex;
+  align-items: center;
+}

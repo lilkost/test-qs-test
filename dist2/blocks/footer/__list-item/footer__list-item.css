@@ -1,0 +1,7 @@
+.footer__list-item {
+  padding-bottom: 18px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  white-space: nowrap;
+}

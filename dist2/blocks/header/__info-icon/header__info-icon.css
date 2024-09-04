@@ -1,0 +1,10 @@
+.header__info-icon {
+  transition: 0.4s ease-in-out;
+  cursor: pointer;
+  margin-bottom: 4px;
+  margin-left: 4px;
+}
+
+.header__info-icon:hover {
+  opacity: 0.4;
+}

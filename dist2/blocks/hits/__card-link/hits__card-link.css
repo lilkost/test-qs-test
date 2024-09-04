@@ -1,0 +1,15 @@
+.hits__card-link {
+  position: absolute;
+  right: 0;
+  bottom: 11px;
+  background-image: url(/images/utils/round-link-disabled.svg);
+  width: 64px;
+  height: 64px;
+  background-position: center;
+  z-index: 1;
+  transition: 0.4s ease-in-out;
+}
+
+.hits__card-link:hover {
+  background-image: url(/images/utils/round-link.svg);
+}

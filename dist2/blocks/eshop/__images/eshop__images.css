@@ -1,0 +1,10 @@
+.eshop__images {
+  display: flex;
+  padding-left: 34px;
+}
+
+@media screen and (max-width: 1300px) {
+  .eshop__images {
+    display: none;
+  }
+}

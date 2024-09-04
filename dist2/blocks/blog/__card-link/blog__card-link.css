@@ -1,0 +1,20 @@
+.blog__card-link {
+  color: #090b18;
+  font-size: 12px;
+  line-height: 15.96px;
+  text-decoration: none;
+  position: relative;
+  width: 124px;
+  height: 28px;
+  transition: 0.4s ease-in-out;
+  display: flex;
+  align-items: center;
+}
+
+.blog__card-link:hover {
+  background-color: #090b18;
+  border-radius: 1000px;
+  width: 110px;
+  color: #ffffff;
+  padding-left: 14px;
+}

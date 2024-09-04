@@ -1,0 +1,12 @@
+.footer__payment {
+  height: 22px;
+  width: 169px;
+}
+
+.footer__payment:nth-child(2n) {
+  height: 21px;
+  width: 146px;
+  padding-top: 15px;
+  position: relative;
+  left: -12px;
+}

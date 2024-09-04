@@ -1,0 +1,13 @@
+.eshop__link {
+  text-decoration: none;
+  font-size: 12px;
+  line-height: 15.96px;
+  margin: 0;
+  transition: 0.4s ease-in-out;
+  display: flex;
+  align-items: center;
+}
+
+.eshop__link:hover {
+  opacity: 0.4;
+}

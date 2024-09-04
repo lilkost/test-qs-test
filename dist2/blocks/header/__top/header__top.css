@@ -1,0 +1,11 @@
+.header__top {
+  display: flex;
+  background-color: #f2f3f5;
+  justify-content: center;
+}
+
+@media screen and (max-width: 1300px) {
+  .header__top {
+    display: none;
+  }
+}

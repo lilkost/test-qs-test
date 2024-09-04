@@ -1,0 +1,5 @@
+.header__bottom-wrapper {
+  display: flex;
+  width: 1300px;
+  justify-content: space-between;
+}

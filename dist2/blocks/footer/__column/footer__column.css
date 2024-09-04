@@ -1,0 +1,9 @@
+.footer__column {
+  display: flex;
+  flex-direction: column;
+  margin-right: 170px;
+}
+
+.footer__column:first-child {
+  margin-right: 101px;
+}

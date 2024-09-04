@@ -1,0 +1,15 @@
+.hits__cards-container {
+  position: relative;
+  bottom: 116px;
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-top: 45px;
+}
+
+@media screen and (max-width: 1000px) {
+  .hits__cards-container {
+    justify-content: space-around;
+  }
+}

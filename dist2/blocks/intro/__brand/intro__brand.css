@@ -1,0 +1,7 @@
+.intro__brand {
+  transition: 0.4s ease-in-out;
+}
+
+.intro__brand:hover {
+  opacity: 0.4;
+}

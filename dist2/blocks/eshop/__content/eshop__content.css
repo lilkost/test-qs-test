@@ -1,0 +1,5 @@
+.eshop__content {
+  display: flex;
+  flex-direction: column;
+  max-width: 626px;
+}

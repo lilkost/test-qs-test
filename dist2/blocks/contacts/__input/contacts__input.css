@@ -1,0 +1,24 @@
+.contacts__input {
+  width: 422px;
+  height: 52px;
+  border-radius: 1000px;
+  padding-left: 18px;
+  font-size: 14px;
+  line-height: 18.62px;
+  border: none;
+  outline: 1px solid #e7e7e7;
+}
+.contacts__input::placeholder {
+  color: #909090;
+}
+
+.contacts__input:focus {
+  outline: 1px solid rgb(72, 106, 253);
+}
+
+@media screen and (max-width: 500px) {
+  .contacts__input {
+    width: 300px;
+    height: 52px;
+  }
+}

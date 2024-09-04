@@ -1,0 +1,7 @@
+.blog__card {
+  display: flex;
+  flex-direction: column;
+  max-width: 310px;
+  height: 366px;
+  justify-content: space-between;
+}

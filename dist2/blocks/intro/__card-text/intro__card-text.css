@@ -1,0 +1,6 @@
+.intro__card-text {
+  display: flex;
+  justify-content: space-between;
+  width: 84%;
+  padding-bottom: 18px;
+}
