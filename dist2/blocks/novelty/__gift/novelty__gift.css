@@ -1,0 +1,22 @@
+.novelty__gift {
+  background-image: url(/images/public/gift.png);
+  height: 346px;
+  border-radius: 35px;
+  margin-top: 100px;
+  position: relative;
+}
+
+.novelty__gift a {
+  height: 100%;
+  width: 100%;
+  display: block;
+  position: absolute;
+  z-index: 1;
+}
+
+@media screen and (max-width: 600px) {
+  .novelty__gift {
+    max-width: 375px;
+    margin: 0 auto;
+  }
+}

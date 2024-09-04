@@ -1,0 +1,15 @@
+.novelty__gift-link {
+  font-size: 18px;
+  line-height: 23.94px;
+  color: #000000;
+  text-decoration: none;
+  margin: 0;
+  padding-top: 5px;
+  padding-left: 101px;
+}
+
+@media screen and (max-width: 600px) {
+  .novelty__gift-link {
+    display: none;
+  }
+}

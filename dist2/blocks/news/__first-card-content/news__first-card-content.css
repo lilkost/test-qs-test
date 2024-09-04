@@ -1,0 +1,5 @@
+.news__first-card-content {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 34px;
+}

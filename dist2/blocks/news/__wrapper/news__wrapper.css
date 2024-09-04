@@ -1,0 +1,5 @@
+.news__wrapper {
+  max-width: 1300px;
+  display: flex;
+  flex-direction: column;
+}

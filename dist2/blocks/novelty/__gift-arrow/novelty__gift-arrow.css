@@ -1,0 +1,14 @@
+.novelty__gift-arrow {
+  position: absolute;
+  width: 58px;
+  height: 58px;
+  left: 275px;
+  top: 240px;
+  transition: 0.4s ease-in-out;
+  z-index: 2;
+  cursor: pointer;
+}
+
+.novelty__gift-arrow:hover {
+  opacity: 0.4;
+}

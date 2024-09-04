@@ -1,0 +1,10 @@
+.news__first-card {
+  width: 530px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1300px) {
+  .news__first-card {
+    display: none;
+  }
+}
