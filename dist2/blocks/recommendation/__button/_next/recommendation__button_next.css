@@ -1,0 +1,10 @@
+.recommendation__button_next {
+  background-image: url(/images/utils/active-arrow.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.recommendation__button_next:disabled {
+  background-image: url(/images/utils/disabled-arrow.svg);
+  transform: rotate(180deg);
+}

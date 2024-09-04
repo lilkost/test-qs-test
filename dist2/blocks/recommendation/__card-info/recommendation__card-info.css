@@ -1,0 +1,7 @@
+.recommendation__card-info {
+  display: flex;
+  position: absolute;
+  bottom: 30.5px;
+  left: 16px;
+  align-items: center;
+}

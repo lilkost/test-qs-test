@@ -1,0 +1,5 @@
+.recommendation__card-tags {
+  display: grid;
+  gap: 4px;
+  position: absolute;
+}

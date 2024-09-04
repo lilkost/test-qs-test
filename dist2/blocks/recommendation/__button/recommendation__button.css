@@ -1,0 +1,23 @@
+.recommendation__button {
+  width: 64px;
+  height: 64px;
+  border-radius: 50px;
+  background-color: rgba(0, 0, 0, 0);
+  border: 1px solid #e8e8e8;
+  cursor: pointer;
+  transition: 0.4s ease-in-out;
+}
+
+.recommendation__button:hover {
+  opacity: 0.4;
+}
+
+.recommendation__button:disabled {
+  opacity: 1;
+}
+
+@media screen and (max-width: 900px) {
+  .recommendation__button {
+    display: none;
+  }
+}

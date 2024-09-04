@@ -1,0 +1,11 @@
+.recommendation__button_prev {
+  background-image: url(/images/utils/active-arrow.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  transform: rotate(180deg);
+}
+
+.recommendation__button_prev:disabled {
+  background-image: url(/images/utils/disabled-arrow.svg);
+  transform: rotate(0deg);
+}

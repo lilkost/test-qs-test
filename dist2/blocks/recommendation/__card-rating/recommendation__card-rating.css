@@ -1,0 +1,7 @@
+.recommendation__card-rating {
+  display: flex;
+  margin-top: 214px;
+  margin-bottom: 21px;
+  justify-content: space-between;
+  align-items: center;
+}

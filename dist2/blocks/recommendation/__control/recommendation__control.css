@@ -1,0 +1,6 @@
+.recommendation__control {
+  display: flex;
+  width: 267px;
+  justify-content: space-between;
+  align-items: center;
+}

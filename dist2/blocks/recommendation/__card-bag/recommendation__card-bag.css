@@ -1,0 +1,10 @@
+.recommendation__card-bag {
+  position: absolute;
+  bottom: 19px;
+  right: 16px;
+  transition: 0.4s ease-in-out;
+}
+
+.recommendation__card-bag:hover {
+  opacity: 0.4;
+}

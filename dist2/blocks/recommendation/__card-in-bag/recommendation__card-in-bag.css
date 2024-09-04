@@ -1,0 +1,12 @@
+.recommendation__card-in-bag {
+  display: flex;
+  text-align: center;
+  color: #ffffff;
+  background-color: #000000;
+  width: 152px;
+  height: 52px;
+  position: absolute;
+  bottom: 20px;
+  right: 16px;
+  border-radius: 1000px;
+}

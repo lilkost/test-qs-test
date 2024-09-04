@@ -1,0 +1,19 @@
+.recommendation__top {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 60px;
+}
+
+@media screen and (max-width: 1000px) {
+  .recommendation__top {
+    justify-content: space-around;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .recommendation__top {
+    flex-direction: column;
+  }
+}

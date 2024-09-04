@@ -1,0 +1,8 @@
+.recommendation__card-old-price {
+  margin: 0;
+  font-size: 14px;
+  line-height: 18.62px;
+  color: #909090;
+  text-decoration: line-through;
+  padding-left: 11px;
+}

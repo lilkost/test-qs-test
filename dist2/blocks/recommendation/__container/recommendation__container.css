@@ -1,0 +1,12 @@
+.recommendation__container {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 1000px) {
+  .recommendation__container {
+    justify-content: space-around;
+  }
+}
