@@ -1,0 +1,1045 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1" />
+    <link rel="stylesheet" href="./pages/index.css" />
+    <title>Парфюм Главная</title>
+  </head>
+  <body class="page">
+    <header class="header">
+      <div class="header__top">
+        <ul class="header__top-list">
+          <li class="header__top-list-item">
+            <img
+              src="./images/icons/delivery-icon.svg"
+              alt="Доставка"
+              class="header__top-meaning-icon"
+            />
+            Быстрая доставка по всей РФ
+            <img src="./images/icons/info-icon.svg" alt="Инфо" class="header__info-icon" />
+          </li>
+          <li class="header__top-list-item">
+            <img src="./images/icons/shield-icon.svg" alt="Щит" class="header__top-meaning-icon" />
+            100% оригинальная продукция
+            <img src="./images/icons/info-icon.svg" alt="Инфо" class="header__info-icon" />
+          </li>
+          <li class="header__top-list-item">
+            <img src="./images/icons/like-icon.svg" alt="Лайк" class="header__top-meaning-icon" />
+            Легкий возврат
+            <img src="./images/icons/info-icon.svg" alt="Инфо" class="header__info-icon" />
+          </li>
+          <li class="header__top-list-item">
+            <img
+              src="./images/icons/coin-icon.svg"
+              alt="Монетка"
+              class="header__top-meaning-icon"
+            />
+            <a href="#" class="header__top-link">Бонусная программа (150 б)</a>
+          </li>
+          <li class="header__top-list-item">
+            <img src="./images/icons/user-icon.svg" alt="Юзер" class="header__top-meaning-icon" />
+            <a href="#" class="header__top-link">Личный кабинет</a>
+          </li>
+        </ul>
+      </div>
+      <div class="header__middle">
+        <div class="header__middle-wrapper">
+          <h1 class="header__middle-logo">ParfumParadise</h1>
+          <p class="header__middle-subtitle">Магазин оригинальной парфюмерии и косметики</p>
+          <button class="header__middle-catalog" type="button">
+            <img
+              src="./images/icons/catalog-icon.svg"
+              alt="Каталог"
+              class="header__middle-catalog-icon"
+            />Каталог продукции
+          </button>
+          <div class="header__middle-search">
+            <input
+              type="search"
+              placeholder="Умный поиск: burberry бёрберри бурберри"
+              class="header__middle-searchbar"
+            />
+            <button class="header__middle-search-button"></button>
+          </div>
+          <div class="header__middle-features">
+            <a href="#" class="header__middle-feature">
+              <img src="./images/icons/heart-icon.svg" alt="Сердце" class="header__middle-icon" />
+              <p class="header__middle-feature-title">Избранное</p>
+            </a>
+            <a href="#" class="header__middle-feature">
+              <img
+                src="./images/icons/stat-icon.svg"
+                alt="Статистика"
+                class="header__middle-icon"
+              />
+              <p class="header__middle-feature-title">Сравнение</p>
+            </a>
+            <a href="#" class="header__middle-feature">
+              <span class="header__middle-notice">24</span>
+              <img src="./images/icons/bag-icon.svg" alt="Сумка" class="header__middle-icon" />
+              <p class="header__middle-feature-title">Корзина</p>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="header__bottom">
+        <div class="header__bottom-wrapper">
+          <nav class="header__bottom-navigation">
+            <ul class="header__bottom-list">
+              <li class="header__bottom-list-item">
+                <a class="header__bottom-link header__bottom-link_red" href="#">Акции</a>
+              </li>
+              <li class="header__bottom-list-item">
+                <a class="header__bottom-link" href="#">Женский парфюм</a>
+              </li>
+              <li class="header__bottom-list-item">
+                <a class="header__bottom-link" href="#">Мужской парфюм</a>
+                <img src="./images/utils/polygon.svg" alt="Выбор" class="header__bottom-polygon" />
+              </li>
+              <li class="header__bottom-list-item">
+                <a class="header__bottom-link" href="#">Нишевая парфюмерия</a>
+              </li>
+              <li class="header__bottom-list-item">
+                <a class="header__bottom-link" href="#">Уходовая косметика</a>
+              </li>
+              <li class="header__bottom-list-item">
+                <a class="header__bottom-link" href="#">Доставка и оплата</a>
+              </li>
+              <li class="header__bottom-list-item">
+                <a class="header__bottom-link" href="#">Распродажа</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="header__bottom-contacts">
+            <a href="#" class="header__bottom-soc">
+              <img src="./images/icons/tg-icon.svg" alt="Телеграм" />
+            </a>
+            <a href="#" class="header__bottom-soc">
+              <img src="./images/icons/whatsapp-icon.svg" alt="Вотсап" />
+            </a>
+            <p class="header__bottom-phone">+7 495 374-58-57</p>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="content">
+      <section class="intro">
+        <div id="slider-container">
+          <div id="top">
+            <img src="./images/utils/red-arrow.png" alt="Стрелка" class="arrow arrow-left" />
+            <div id="slider">
+              <img
+                src="./images/public/banner.png"
+                alt="Баннер"
+                class="intro__banner slider-image block"
+              />
+              <img
+                src="./images/public/banner1.png"
+                alt="Баннер"
+                class="intro__banner slider-image"
+              />
+              <img
+                src="./images/public/banner2.png"
+                alt="Баннер"
+                class="intro__banner slider-image"
+              />
+              <img
+                src="./images/public/banner3.png"
+                alt="Баннер"
+                class="intro__banner slider-image"
+              />
+            </div>
+            <img src="./images/utils/red-arrow.png" alt="Стрелка" class="arrow arrow-right" />
+          </div>
+          <div id="bottom"></div>
+        </div>
+        <ul class="intro__list">
+          <li><a href="#" class="intro__link">A</a></li>
+          <li><a href="#" class="intro__link">B</a></li>
+          <li><a href="#" class="intro__link">C</a></li>
+          <li><a href="#" class="intro__link">D</a></li>
+          <li><a href="#" class="intro__link">E</a></li>
+          <li><a href="#" class="intro__link">F</a></li>
+          <li><a href="#" class="intro__link">G</a></li>
+          <li><a href="#" class="intro__link">H</a></li>
+          <li><a href="#" class="intro__link">I</a></li>
+          <li><a href="#" class="intro__link">G</a></li>
+          <li><a href="#" class="intro__link">K</a></li>
+          <li><a href="#" class="intro__link">L</a></li>
+          <li><a href="#" class="intro__link">M</a></li>
+          <li><a href="#" class="intro__link">N</a></li>
+          <li><a href="#" class="intro__link">O</a></li>
+          <li><a href="#" class="intro__link">P</a></li>
+          <li><a href="#" class="intro__link">Q</a></li>
+          <li><a href="#" class="intro__link">R</a></li>
+          <li><a href="#" class="intro__link">S</a></li>
+          <li><a href="#" class="intro__link">T</a></li>
+          <li><a href="#" class="intro__link">V</a></li>
+          <li><a href="#" class="intro__link">U</a></li>
+          <li><a href="#" class="intro__link">W</a></li>
+          <li><a href="#" class="intro__link">X</a></li>
+          <li><a href="#" class="intro__link">Y</a></li>
+          <li><a href="#" class="intro__link">Z</a></li>
+        </ul>
+        <div class="intro__brands">
+          <div class="intro__carousel">
+            <button class="intro__arrow-button">
+              <img src="./images/utils/arrow.svg" class="intro__arrow" alt="Стрелка" />
+            </button>
+            <ul class="intro__brands-list">
+              <li>
+                <a href="#" class="intro__brand">
+                  <img src="./images/public/naj-oleari-promoBannerWebpMedia.png" alt="Олеари" />
+                </a>
+              </li>
+              <li>
+                <a href="#" class="intro__brand">
+                  <img
+                    src="./images/public/Estee-Lauder-homepage-logo-promoBannerWebpMedia.png"
+                    alt="Эсти"
+                  />
+                </a>
+              </li>
+              <li>
+                <a href="#" class="intro__brand">
+                  <img src="./images/public/JUSBOX-logo-promoBannerWebpMedia.png" alt="Джусбокс" />
+                </a>
+              </li>
+              <li>
+                <a href="#" class="intro__brand">
+                  <img
+                    src="./images/public/maxclinicLogoMain-promoBannerWebpMedia.png"
+                    alt="Максклиник"
+                  />
+                </a>
+              </li>
+              <li>
+                <a href="#" class="intro__brand">
+                  <img src="./images/public/rg-brand-797-log-promoBannerWebpMedia.png" alt="РГ" />
+                </a>
+              </li>
+            </ul>
+            <button class="intro__arrow-button">
+              <img
+                src="./images/utils/arrow.svg"
+                alt="Стрелка"
+                class="intro__arrow intro__arrow_reversed"
+              />
+            </button>
+          </div>
+          <a href="#" class="intro__brand-link">
+            Все бренды
+            <img src="./images/utils/link-arrow.svg" alt="Стрелка" class="intro__link-arrow" />
+          </a>
+        </div>
+        <div class="intro__discounts">
+          <article class="intro__card">
+            <a class="intro__card-link" href="#">
+              <img src="./images/utils/round-link.svg" alt="Ссылка" class="intro__card-arrow" />
+            </a>
+            <img src="./images/public/p1.png" alt="Духи" class="intro__card-img" />
+            <div class="intro__card-text">
+              <p class="intro__card-procent">40%</p>
+              <div class="intro__card-quotes">
+                <h4 class="intro__card-quote intro__card-quote_bold">на отливанты</h4>
+                <p class="intro__card-quote">тестируй с выгодой</p>
+              </div>
+            </div>
+          </article>
+          <article class="intro__card">
+            <a class="intro__card-link" href="#">
+              <img src="./images/utils/round-link.svg" alt="Ссылка" class="intro__card-arrow" />
+            </a>
+            <img src="./images/public/p2.png" alt="Духи" class="intro__card-img_rotated" />
+            <div class="intro__card-text intro__card-text_start">
+              <p class="intro__card-procent">25%</p>
+              <div class="intro__card-quotes">
+                <p class="intro__card-quote">скидка на</p>
+                <h4 class="intro__card-quote intro__card-quote_bold">пробники и миниатюры</h4>
+              </div>
+            </div>
+          </article>
+          <article class="intro__card">
+            <a class="intro__card-link" href="#">
+              <img src="./images/utils/round-link.svg" alt="Ссылка" class="intro__card-arrow" />
+            </a>
+            <img src="./images/public/p3.png" alt="Духи" class="intro__card-img_top" />
+            <img src="./images/public/p4.png" alt="Духи" class="intro__card-img" />
+            <img src="./images/public/p5.png" alt="Духи" class="intro__card-img_bot" />
+            <div class="intro__card-text">
+              <p class="intro__card-procent">15%</p>
+              <div class="intro__card-quotes">
+                <p class="intro__card-quote">скидка на</p>
+                <h4 class="intro__card-quote intro__card-quote_bold">50 брендов</h4>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="novelty">
+        <div class="novelty__wrapper">
+          <div class="recommendation__top">
+            <h2 class="recommendation__header">Новинки</h2>
+            <div class="recommendation__control">
+              <a href="#" class="recommendation__link">Смотреть все</a>
+              <button class="recommendation__button recommendation__button_prev" disabled></button>
+              <button class="recommendation__button recommendation__button_next"></button>
+            </div>
+          </div>
+          <div class="recommendation__container">
+            <article class="recommendation__card">
+              <a href="#" class="recommendation__product-link">
+                <img src="./images/public/n1.png" alt="Духи" class="recommendation__product-link" />
+              </a>
+              <div class="recommendation__card-top">
+                <div class="recommendation__card-tags">
+                  <img src="./images/utils/discont-40.svg" alt="Скидка" />
+                  <img src="./images/utils/new.svg" alt="Скидка" />
+                  <img src="./images/utils/hit.svg" alt="Скидка" />
+                </div>
+                <div class="recommendation__card-buttons">
+                  <button class="recommendation__card-button">
+                    <img src="./images/utils/stat-disabled.svg" alt="Статистика" />
+                  </button>
+                  <button class="recommendation__card-button">
+                    <img src="./images/utils/heart-disabled.svg" alt="Лайк" />
+                  </button>
+                </div>
+              </div>
+              <div class="recommendation__card-rating">
+                <img src="./images/utils/stars-5.svg" alt="5 звезд" />
+                <p class="recommendation__card-text">в наличии</p>
+              </div>
+              <p class="recommendation__card-text">Женская туалетная вода</p>
+              <h4 class="recommendation__card-titile">Abercrombie & Fitch Perfume No1 Bare</h4>
+              <div class="recommendation__card-info">
+                <p class="recommendation__card-ot">от</p>
+                <p class="recommendation__card-price">3 570 ₽</p>
+                <p class="recommendation__card-old-price">4 570 ₽</p>
+              </div>
+              <img src="./images/utils/buy.svg" alt="Купить" class="recommendation__card-bag" />
+            </article>
+
+            <article class="recommendation__card">
+              <a href="#" class="recommendation__product-link">
+                <img src="./images/public/r4.png" alt="Духи" class="recommendation__product-link" />
+              </a>
+              <div class="recommendation__card-top">
+                <div class="recommendation__card-tags">
+                  <img src="./images/utils/hit.svg" alt="Скидка" />
+                </div>
+                <div class="recommendation__card-buttons">
+                  <button class="recommendation__card-button">
+                    <img src="./images/utils/stat-active.svg" alt="Статистика" />
+                  </button>
+                  <button class="recommendation__card-button">
+                    <img src="./images/utils/heart-active.svg" alt="Статистика" />
+                  </button>
+                </div>
+              </div>
+              <div class="recommendation__card-rating">
+                <img src="./images/utils/stars-5.svg" alt="3 звезд" />
+                <p class="recommendation__card-text">в наличии</p>
+              </div>
+              <p class="recommendation__card-text">Женская туалетная вода</p>
+              <h4 class="recommendation__card-titile">Tom Ford Lost Cherry</h4>
+              <div class="recommendation__card-info">
+                <p class="recommendation__card-ot">от</p>
+                <p class="recommendation__card-price">7 550 ₽</p>
+                <p class="recommendation__card-old-price">8 570 ₽</p>
+              </div>
+              <img src="./images/utils/buy.svg" alt="Купить" class="recommendation__card-bag" />
+            </article>
+
+            <article class="recommendation__card">
+              <a href="#" class="recommendation__product-link">
+                <img src="./images/public/n2.png" alt="Духи" class="recommendation__product-link" />
+              </a>
+              <div class="recommendation__card-top">
+                <div class="recommendation__card-tags">
+                  <img src="./images/utils/new.svg" alt="Скидка" />
+                </div>
+                <div class="recommendation__card-buttons">
+                  <button class="recommendation__card-button">
+                    <img src="./images/utils/stat-disabled.svg" alt="Статистика" />
+                  </button>
+                  <button class="recommendation__card-button">
+                    <img src="./images/utils/heart-disabled.svg" alt="Статистика" />
+                  </button>
+                </div>
+              </div>
+              <div class="recommendation__card-rating">
+                <img src="./images/utils/stars-4.svg" alt="4 звезд" />
+                <p class="recommendation__card-text">под заказ</p>
+              </div>
+              <p class="recommendation__card-text">Мужская туалетная вода</p>
+              <h4 class="recommendation__card-titile">Diesel Plus Plus Feminine</h4>
+              <div class="recommendation__card-info">
+                <p class="recommendation__card-ot">от</p>
+                <p class="recommendation__card-price">3 570 ₽</p>
+              </div>
+              <img src="./images/utils/buy.svg" alt="Купить" class="recommendation__card-bag" />
+            </article>
+
+            <article class="recommendation__card">
+              <a href="#" class="recommendation__product-link">
+                <img src="./images/public/n3.png" alt="Духи" class="recommendation__product-link" />
+              </a>
+              <div class="recommendation__card-top">
+                <div class="recommendation__card-tags"></div>
+                <div class="recommendation__card-buttons">
+                  <button class="recommendation__card-button">
+                    <img src="./images/utils/stat-disabled.svg" alt="Статистика" />
+                  </button>
+                  <button class="recommendation__card-button">
+                    <img src="./images/utils/heart-active.svg" alt="Статистика" />
+                  </button>
+                </div>
+              </div>
+              <div class="recommendation__card-rating">
+                <img src="./images/utils/stars-5.svg" alt="5 звезд" />
+                <p class="recommendation__card-text">в наличии</p>
+              </div>
+              <p class="recommendation__card-text">Женская туалетная вода</p>
+              <h4 class="recommendation__card-titile">Abercrombie & Fitch Perfume No1 Bare</h4>
+              <div class="recommendation__card-info">
+                <p class="recommendation__card-ot">от</p>
+                <p class="recommendation__card-price">3 570 ₽</p>
+              </div>
+              <div class="recommendation__card-in-bag">
+                <img src="./images/utils/buy.svg" alt="Купить" />
+                <p class="recommendation__card-in-bag-text">В корзине</p>
+              </div>
+            </article>
+          </div>
+
+          <article class="novelty__gift">
+            <a href="#"></a>
+            <p class="novelty__gift-text">Дарим к каждому заказу</p>
+            <h3 class="novelty__gift-header">ПОДАРОК</h3>
+            <div>
+              <p class="novelty__gift-link">
+                Перейти в каталог
+                <img src="./images/utils/round-link.svg" alt="Ссылка" class="novelty__gift-arrow" />
+              </p>
+            </div>
+            <img src="/images/public/bells.png" alt="Подарок" class="novelty__gift-bells" />
+          </article>
+        </div>
+      </section>
+
+      <section class="blog">
+        <div class="blog__wrapper">
+          <div class="recommendation__top">
+            <h2 class="recommendation__header">Блог о парфюмерии</h2>
+            <div class="recommendation__control">
+              <a href="#" class="recommendation__link">Смотреть все</a>
+              <button class="recommendation__button recommendation__button_prev" disabled></button>
+              <button class="recommendation__button recommendation__button_next"></button>
+            </div>
+          </div>
+          <div class="recommendation__container">
+            <article class="blog__card">
+              <div class="recommendation__card-tags">
+                <img src="./images/utils/date.svg" alt="Дата" class="blog__card-tag" />
+              </div>
+              <img src="./images/public/b1.png" alt="Духи" />
+              <h4 class="blog__card-title">Сравнение Escentric Molecules и Molecule Escentric</h4>
+              <a href="#" class="blog__card-link">
+                Читать далее
+                <img src="./images/utils/round-link.svg" alt="Ссылка" class="blog__card-arrow" />
+              </a>
+            </article>
+
+            <article class="blog__card">
+              <div class="recommendation__card-tags">
+                <img src="./images/utils/date.svg" alt="Дата" class="blog__card-tag" />
+              </div>
+              <div>
+                <img src="./images/public/b2.png" alt="Духи" />
+
+                <h4 class="blog__card-title">Вся правда о тестерах</h4>
+              </div>
+              <a href="#" class="blog__card-link">
+                Читать далее
+                <img src="./images/utils/round-link.svg" alt="Ссылка" class="blog__card-arrow" />
+              </a>
+            </article>
+
+            <article class="blog__card">
+              <div class="recommendation__card-tags">
+                <img src="./images/utils/date.svg" alt="Дата" class="blog__card-tag" />
+              </div>
+              <img src="./images/public/b3.png" alt="Духи" />
+              <h4 class="blog__card-title">Ароматы Томаса Космалы: лучшая пятерка</h4>
+              <a href="#" class="blog__card-link">
+                Читать далее
+                <img src="./images/utils/round-link.svg" alt="Ссылка" class="blog__card-arrow" />
+              </a>
+            </article>
+
+            <article class="blog__card">
+              <div class="recommendation__card-tags">
+                <img src="./images/utils/date.svg" alt="Дата" class="blog__card-tag" />
+              </div>
+              <div>
+                <img src="./images/public/b4.png" alt="Духи" />
+                <h4 class="blog__card-title">Бодрящая свежесть и чувственная теплота: топ ...</h4>
+              </div>
+              <a href="#" class="blog__card-link">
+                Читать далее
+                <img src="./images/utils/round-link.svg" alt="Ссылка" class="blog__card-arrow" />
+              </a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="hits">
+        <div class="hits__cards-container">
+          <article class="hits__card">
+            <img src="./images/public/h1.png" alt="Парфюм" />
+            <h4 class="hits__card-text">Женская парфюмерия</h4>
+            <a href="#" class="hits__card-link"> </a>
+          </article>
+
+          <article class="hits__card">
+            <img src="./images/public/h2.png" alt="Парфюм" />
+            <h4 class="hits__card-text">Мужская парфюмерия</h4>
+            <a href="#" class="hits__card-link"> </a>
+          </article>
+
+          <article class="hits__card">
+            <img src="./images/public/h3.png" alt="Парфюм" />
+            <h4 class="hits__card-text">Унисекс парфюм</h4>
+            <a href="#" class="hits__card-link"> </a>
+          </article>
+
+          <article class="hits__card">
+            <img src="./images/public/h4.png" alt="Парфюм" />
+            <h4 class="hits__card-text">Уходовая косметика</h4>
+            <a href="#" class="hits__card-link"> </a>
+          </article>
+        </div>
+
+        <div class="recommendation__top">
+          <h2 class="recommendation__header">Хиты продаж</h2>
+          <div class="recommendation__control">
+            <a href="#" class="recommendation__link">Смотреть все</a>
+            <button class="recommendation__button recommendation__button_prev" disabled></button>
+            <button class="recommendation__button recommendation__button_next"></button>
+          </div>
+        </div>
+        <div class="recommendation__container">
+          <article class="recommendation__card">
+            <a href="#" class="recommendation__product-link">
+              <img src="./images/public/n1.png" alt="Духи" class="recommendation__product-link" />
+            </a>
+            <div class="recommendation__card-top">
+              <div class="recommendation__card-tags">
+                <img src="./images/utils/discont-40.svg" alt="Скидка" />
+                <img src="./images/utils/new.svg" alt="Скидка" />
+                <img src="./images/utils/hit.svg" alt="Скидка" />
+              </div>
+              <div class="recommendation__card-buttons">
+                <button class="recommendation__card-button">
+                  <img src="./images/utils/stat-disabled.svg" alt="Статистика" />
+                </button>
+                <button class="recommendation__card-button">
+                  <img src="./images/utils/heart-disabled.svg" alt="Лайк" />
+                </button>
+              </div>
+            </div>
+            <div class="recommendation__card-rating">
+              <img src="./images/utils/stars-5.svg" alt="5 звезд" />
+              <p class="recommendation__card-text">в наличии</p>
+            </div>
+            <p class="recommendation__card-text">Женская туалетная вода</p>
+            <h4 class="recommendation__card-titile">Abercrombie & Fitch Perfume No1 Bare</h4>
+            <div class="recommendation__card-info">
+              <p class="recommendation__card-ot">от</p>
+              <p class="recommendation__card-price">3 570 ₽</p>
+              <p class="recommendation__card-old-price">4 570 ₽</p>
+            </div>
+            <img src="./images/utils/buy.svg" alt="Купить" class="recommendation__card-bag" />
+          </article>
+
+          <article class="recommendation__card">
+            <a href="#" class="recommendation__product-link">
+              <img src="./images/public/r4.png" alt="Духи" class="recommendation__product-link" />
+            </a>
+            <div class="recommendation__card-top">
+              <div class="recommendation__card-tags">
+                <img src="./images/utils/hit.svg" alt="Скидка" />
+              </div>
+              <div class="recommendation__card-buttons">
+                <button class="recommendation__card-button">
+                  <img src="./images/utils/stat-active.svg" alt="Статистика" />
+                </button>
+                <button class="recommendation__card-button">
+                  <img src="./images/utils/heart-active.svg" alt="Статистика" />
+                </button>
+              </div>
+            </div>
+            <div class="recommendation__card-rating">
+              <img src="./images/utils/stars-5.svg" alt="3 звезд" />
+              <p class="recommendation__card-text">в наличии</p>
+            </div>
+            <p class="recommendation__card-text">Женская туалетная вода</p>
+            <h4 class="recommendation__card-titile">Tom Ford Lost Cherry</h4>
+            <div class="recommendation__card-info">
+              <p class="recommendation__card-ot">от</p>
+              <p class="recommendation__card-price">7 550 ₽</p>
+              <p class="recommendation__card-old-price">8 570 ₽</p>
+            </div>
+            <img src="./images/utils/buy.svg" alt="Купить" class="recommendation__card-bag" />
+          </article>
+
+          <article class="recommendation__card">
+            <a href="#" class="recommendation__product-link">
+              <img src="./images/public/n2.png" alt="Духи" class="recommendation__product-link" />
+            </a>
+            <div class="recommendation__card-top">
+              <div class="recommendation__card-tags">
+                <img src="./images/utils/new.svg" alt="Скидка" />
+              </div>
+              <div class="recommendation__card-buttons">
+                <button class="recommendation__card-button">
+                  <img src="./images/utils/stat-disabled.svg" alt="Статистика" />
+                </button>
+                <button class="recommendation__card-button">
+                  <img src="./images/utils/heart-disabled.svg" alt="Статистика" />
+                </button>
+              </div>
+            </div>
+            <div class="recommendation__card-rating">
+              <img src="./images/utils/stars-4.svg" alt="4 звезд" />
+              <p class="recommendation__card-text">под заказ</p>
+            </div>
+            <p class="recommendation__card-text">Мужская туалетная вода</p>
+            <h4 class="recommendation__card-titile">Diesel Plus Plus Feminine</h4>
+            <div class="recommendation__card-info">
+              <p class="recommendation__card-ot">от</p>
+              <p class="recommendation__card-price">3 570 ₽</p>
+            </div>
+            <img src="./images/utils/buy.svg" alt="Купить" class="recommendation__card-bag" />
+          </article>
+
+          <article class="recommendation__card">
+            <a href="#" class="recommendation__product-link">
+              <img src="./images/public/n3.png" alt="Духи" class="recommendation__product-link" />
+            </a>
+            <div class="recommendation__card-top">
+              <div class="recommendation__card-tags"></div>
+              <div class="recommendation__card-buttons">
+                <button class="recommendation__card-button">
+                  <img src="./images/utils/stat-disabled.svg" alt="Статистика" />
+                </button>
+                <button class="recommendation__card-button">
+                  <img src="./images/utils/heart-active.svg" alt="Статистика" />
+                </button>
+              </div>
+            </div>
+            <div class="recommendation__card-rating">
+              <img src="./images/utils/stars-5.svg" alt="5 звезд" />
+              <p class="recommendation__card-text">в наличии</p>
+            </div>
+            <p class="recommendation__card-text">Женская туалетная вода</p>
+            <h4 class="recommendation__card-titile">Abercrombie & Fitch Perfume No1 Bare</h4>
+            <div class="recommendation__card-info">
+              <p class="recommendation__card-ot">от</p>
+              <p class="recommendation__card-price">3 570 ₽</p>
+            </div>
+            <div class="recommendation__card-in-bag">
+              <img src="./images/utils/buy.svg" alt="Купить" />
+              <p class="recommendation__card-in-bag-text">В корзине</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="news">
+        <div class="news__wrapper">
+          <h2 class="news__header">Новости</h2>
+          <div class="news__content">
+            <article class="news__first-card">
+              <img src="./images/public/ne1.png" alt="Духи" />
+              <div class="news__first-card-content">
+                <h4 class="news__first-card-text">
+                  Новинка: роскошный аромат для настоящих ценителей парфюмерии!
+                </h4>
+                <a href="#">
+                  <img
+                    src="./images/utils/round-link.svg"
+                    alt="Ссылка"
+                    class="news__first-card-img"
+                  />
+                </a>
+              </div>
+              <p class="news__first-card-date">12.06.2024</p>
+            </article>
+
+            <div class="news__cards">
+              <article class="news__card">
+                <img src="./images/public/ne2.png" alt="Духи" class="news__card-banner" />
+                <div class="news__card-content">
+                  <h4 class="news__card-text">
+                    Новинка: роскошный аромат для настоящих ценителей парфюмерии!
+                  </h4>
+                  <p class="news__card-date">12.06.2024</p>
+                </div>
+                <a href="#">
+                  <img src="./images/utils/round-link.svg" alt="Ссылка" class="news__card-img" />
+                </a>
+              </article>
+
+              <article class="news__card">
+                <img src="./images/public/ne2.png" alt="Духи" class="news__card-banner" />
+                <div class="news__card-content">
+                  <h4 class="news__card-text">
+                    Новинка: роскошный аромат для настоящих ценителей парфюмерии!
+                  </h4>
+                  <p class="news__card-date">12.06.2024</p>
+                </div>
+                <a href="#">
+                  <img src="./images/utils/round-link.svg" alt="Ссылка" class="news__card-img" />
+                </a>
+              </article>
+
+              <article class="news__card">
+                <img src="./images/public/ne2.png" alt="Духи" class="news__card-banner" />
+                <div class="news__card-content">
+                  <h4 class="news__card-text">
+                    Новинка: роскошный аромат для настоящих ценителей парфюмерии!
+                  </h4>
+                  <p class="news__card-date">12.06.2024</p>
+                </div>
+                <a href="#">
+                  <img src="./images/utils/round-link.svg" alt="Ссылка" class="news__card-img" />
+                </a>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="recommendation">
+        <div class="recommendation__top">
+          <h2 class="recommendation__header">Рекомендуем</h2>
+          <div class="recommendation__control">
+            <a href="#" class="recommendation__link">Смотреть все</a>
+            <button class="recommendation__button recommendation__button_prev" disabled></button>
+            <button class="recommendation__button recommendation__button_next"></button>
+          </div>
+        </div>
+        <div class="recommendation__container">
+          <article class="recommendation__card">
+            <a href="#" class="recommendation__product-link">
+              <img src="./images/public/r1.png" alt="Духи" class="recommendation__product-link" />
+            </a>
+            <div class="recommendation__card-top">
+              <div class="recommendation__card-tags">
+                <img src="./images/utils/discont-10.svg" alt="Скидка" />
+              </div>
+              <div class="recommendation__card-buttons">
+                <button class="recommendation__card-button">
+                  <img src="./images/utils/stat-disabled.svg" alt="Статистика" />
+                </button>
+                <button class="recommendation__card-button">
+                  <img src="./images/utils/heart-disabled.svg" alt="Лайк" />
+                </button>
+              </div>
+            </div>
+            <div class="recommendation__card-rating">
+              <img src="./images/utils/stars-5.svg" alt="5 звезд" />
+              <p class="recommendation__card-text">в наличии</p>
+            </div>
+            <p class="recommendation__card-text">Женская туалетная вода</p>
+            <h4 class="recommendation__card-titile">Antonio Maretti Nymphomania</h4>
+            <div class="recommendation__card-info">
+              <p class="recommendation__card-price">10 561 ₽</p>
+              <p class="recommendation__card-old-price">4 570 ₽</p>
+            </div>
+            <img src="./images/utils/buy.svg" alt="Купить" class="recommendation__card-bag" />
+          </article>
+
+          <article class="recommendation__card">
+            <a href="#" class="recommendation__product-link">
+              <img src="./images/public/r2.png" alt="Духи" class="recommendation__product-link" />
+            </a>
+            <div class="recommendation__card-top">
+              <div class="recommendation__card-tags"></div>
+              <div class="recommendation__card-buttons">
+                <button class="recommendation__card-button">
+                  <img src="./images/utils/stat-disabled.svg" alt="Статистика" />
+                </button>
+                <button class="recommendation__card-button">
+                  <img src="./images/utils/heart-disabled.svg" alt="Статистика" />
+                </button>
+              </div>
+            </div>
+            <div class="recommendation__card-rating">
+              <img src="./images/utils/stars-3.svg" alt="3 звезды" />
+              <p class="recommendation__card-text">в наличии</p>
+            </div>
+            <p class="recommendation__card-text">Женская туалетная вода</p>
+            <h4 class="recommendation__card-titile">Hugo Boss Boss Woman</h4>
+            <div class="recommendation__card-info">
+              <p class="recommendation__card-ot">от</p>
+              <p class="recommendation__card-price">7 550 ₽</p>
+              <p class="recommendation__card-old-price">8 570 ₽</p>
+            </div>
+            <img src="./images/utils/buy.svg" alt="Купить" class="recommendation__card-bag" />
+          </article>
+
+          <article class="recommendation__card">
+            <a href="#" class="recommendation__product-link">
+              <img src="./images/public/r3.png" alt="Духи" class="recommendation__product-link" />
+            </a>
+            <div class="recommendation__card-top">
+              <div class="recommendation__card-tags">
+                <img src="./images/utils/new.svg" alt="Скидка" />
+              </div>
+              <div class="recommendation__card-buttons">
+                <button class="recommendation__card-button">
+                  <img src="./images/utils/stat-disabled.svg" alt="Статистика" />
+                </button>
+                <button class="recommendation__card-button">
+                  <img src="./images/utils/heart-disabled.svg" alt="Статистика" />
+                </button>
+              </div>
+            </div>
+            <div class="recommendation__card-rating">
+              <img src="./images/utils/stars-4.svg" alt="4 звезд" />
+              <p class="recommendation__card-text">под заказ</p>
+            </div>
+            <p class="recommendation__card-text">Лосьон для тела</p>
+            <h4 class="recommendation__card-titile">AlHambra Tabac</h4>
+            <div class="recommendation__card-info">
+              <p class="recommendation__card-price">3 570 ₽</p>
+            </div>
+            <img src="./images/utils/buy.svg" alt="Купить" class="recommendation__card-bag" />
+          </article>
+
+          <article class="recommendation__card">
+            <a href="#" class="recommendation__product-link">
+              <img src="./images/public/r4.png" alt="Духи" class="recommendation__product-link" />
+            </a>
+            <div class="recommendation__card-top">
+              <div class="recommendation__card-tags">
+                <img src="./images/utils/hit.svg" alt="Скидка" />
+              </div>
+              <div class="recommendation__card-buttons">
+                <button class="recommendation__card-button">
+                  <img src="./images/utils/stat-active.svg" alt="Статистика" />
+                </button>
+                <button class="recommendation__card-button">
+                  <img src="./images/utils/heart-active.svg" alt="Статистика" />
+                </button>
+              </div>
+            </div>
+            <div class="recommendation__card-rating">
+              <img src="./images/utils/stars-5.svg" alt="5 звезд" />
+              <p class="recommendation__card-text">в наличии</p>
+            </div>
+            <p class="recommendation__card-text">Женская туалетная вода</p>
+            <h4 class="recommendation__card-titile">Tom Ford Lost Cherry</h4>
+            <div class="recommendation__card-info">
+              <p class="recommendation__card-ot">от</p>
+              <p class="recommendation__card-price">7 550 ₽</p>
+              <p class="recommendation__card-old-price">8 570 ₽</p>
+            </div>
+            <img src="./images/utils/buy.svg" alt="Купить" class="recommendation__card-bag" />
+          </article>
+        </div>
+      </section>
+
+      <section class="advantage">
+        <h2 class="advantage__header">Почему стоит купить у нас</h2>
+        <div class="advantage__container">
+          <article class="advantage__card advantage__card_first">
+            <img
+              src="./images/icons/br-delivery-icon.svg"
+              alt="Доставка"
+              class="advantage__icon advantage__icon_big"
+            />
+            <h4 class="advantage__card-title advantage__card-title_big">Удобная доставка</h4>
+            <p class="advantsge__card-text advantsge__card-text_big">
+              Доставка осуществляется во все города РФ
+            </p>
+            <p class="advantsge__card-text advantsge__card-text_big">
+              В пределах 40 км от МКАД доставка на следующий день при заказе в будни до 16ч
+            </p>
+            <p class="advantsge__card-text advantsge__card-text_big">
+              В регионы доставка осуществляется службами: Почта России, СДЕК и 5post
+            </p>
+          </article>
+
+          <article class="advantage__card">
+            <img
+              src="./images/icons/br-check-icon.svg"
+              alt="Чек"
+              class="advantage__icon advantage__icon_mid"
+            />
+            <h4 class="advantage__card-title advantage__card-title_mid">Более 12 лет на рынке</h4>
+            <p class="advantsge__card-text advantsge__card-text_mid">
+              Наша компания занимается розничной продажей парфюмерии с 2006 года
+            </p>
+          </article>
+
+          <article class="advantage__card">
+            <img
+              src="./images/icons/br-crown-icon.svg"
+              alt="Корона"
+              class="advantage__icon advantage__icon_mid"
+            />
+            <h4 class="advantage__card-title advantage__card-title_mid">Высокий уровень сервиса</h4>
+            <p class="advantsge__card-text advantsge__card-text_mid">
+              Один из крупнейших интерне-магазинов в РФ
+            </p>
+          </article>
+
+          <article class="advantage__card">
+            <img
+              src="./images/icons/br-shield-icon.svg"
+              alt="Щит"
+              class="advantage__icon advantage__icon_mid"
+            />
+            <h4 class="advantage__card-title advantage__card-title_mid">
+              Более 850 оригинальных брендов
+            </h4>
+            <p class="advantsge__card-text advantsge__card-text_mid">
+              Покупая парфюмерию и косметику у нас, будьте уверены, вы покупаете оригинальную
+              продукцию
+            </p>
+          </article>
+
+          <article class="advantage__card">
+            <img
+              src="./images/icons/br-wallet-icon.svg"
+              alt="Кошелек"
+              class="advantage__icon advantage__icon_mid"
+            />
+            <h4 class="advantage__card-title advantage__card-title_mid">Любая форма оплаты</h4>
+            <p class="advantsge__card-text advantsge__card-text_mid">
+              Наложный платеж, оплата на сайте, оплата курьеру картой или наличными
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="eshop">
+        <div class="eshop__content">
+          <h2 class="eshop__header">Интернет - магазин парфюмерии</h2>
+          <p class="eshop__text">
+            Создание парфюмов издревле считается тончайшим искусством. Запахи играют огромную роль в
+            повседневной и праздничной жизни.
+          </p>
+          <p class="eshop__text">
+            Наш интернет-магазин парфюмерии – театр головокружительных ароматов, настоящий кладезь
+            благовоний. Мы сплоченный коллектив профессионалов с двенадцатилетним опытом работы,
+            знающий о парфюмерии все и с удовольствием проведем вас в этот сказочный мир, поможем
+            сделать правильный выбор и без промедления получить заказ.
+          </p>
+          <a href="#" class="eshop__link"
+            >Читать далее
+            <img src="./images/utils/round-link.svg" alt="Ссылка" class="eshop__arrow" />
+          </a>
+        </div>
+        <div class="eshop__images">
+          <img src="./images/public/e1.png" alt="Духи" class="eshop__img1" />
+          <div class="eshop__images2">
+            <img src="./images/public/e2.png" alt="Духи" class="eshop__img2" />
+            <img src="./images/public/e2.png" alt="Духи" class="eshop__img3" />
+          </div>
+        </div>
+      </section>
+
+      <section class="contacts">
+        <div class="contacts__wrapper">
+          <div>
+            <h3 class="contacts__header">Лучшие новости для Вас</h3>
+            <p class="contacts__text contacts__text_first">
+              Не пропустите наши акции, новинки, и персональные предложения
+            </p>
+            <div class="contacts__email">
+              <input type="email" class="contacts__input" placeholder="olivia@untitledui.com" />
+              <button type="submit" class="contacts__submit"></button>
+            </div>
+          </div>
+          <div class="contacts__right">
+            <h3 class="contacts__header">По любому вопросу, Вы можете звонить</h3>
+            <p class="contacts__phone">+7 495 374-58-57</p>
+            <div class="contacts__container">
+              <a href="#" class="header__bottom-soc">
+                <img src="./images/icons/tg-icon2.svg" alt="Телеграм" />
+              </a>
+              <a href="#" class="header__bottom-soc">
+                <img src="./images/icons/whatsapp-icon2.svg" alt="Вотсап" />
+              </a>
+              <p class="contacts__text">Или писать нам в чат</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer__wrapper">
+        <div class="footer__column">
+          <h2 class="footer__logo">ParfumParadise</h2>
+          <p class="footer__copyright">2024 © parfum-paradise.ru 2006-2018</p>
+          <img src="./images/payment/pay_icons1.png" alt="Платежи1" class="footer__payment" />
+          <img src="./images/payment/pay_icons2.png" alt="Платежи2" class="footer__payment" />
+        </div>
+        <div class="footer__column">
+          <p class="footer__subtitle">О компании</p>
+          <ul class="footer__list">
+            <li class="footer__list-item"><a href="#" class="footer__link">О магазине</a></li>
+            <li class="footer__list-item"><a href="#" class="footer__link">Условия оплаты</a></li>
+            <li class="footer__list-item"><a href="#" class="footer__link">Условия доставки</a></li>
+            <li class="footer__list-item"><a href="#" class="footer__link">Возвраты</a></li>
+            <li class="footer__list-item">
+              <a href="#" class="footer__link">Помощь покупателю</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__column">
+          <p class="footer__subtitle">Покупателю</p>
+          <ul class="footer__list">
+            <li class="footer__list-item"><a href="#" class="footer__link">Личный кабинет</a></li>
+            <li class="footer__list-item">
+              <a href="#" class="footer__link">Бонусная программа</a>
+            </li>
+            <li class="footer__list-item"><a href="#" class="footer__link">Вопросы и ответы</a></li>
+            <li class="footer__list-item"><a href="#" class="footer__link">Блог</a></li>
+            <li class="footer__list-item">
+              <a href="#" class="footer__link">Обзоры</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__column">
+          <p class="footer__subtitle">Контакты</p>
+          <ul class="footer__list">
+            <li class="footer__list-item">
+              <img src="./images/icons/phone-icon.svg" alt="Телефон" class="footer__icon" />
+              <a href="#" class="footer__link"> +7 495 374-58-57</a>
+            </li>
+            <li class="footer__list-item">
+              <img src="./images/icons/mail-icon.svg" alt="Почта" class="footer__icon" />
+              <a href="#" class="footer__link">zakaz@parfum-paradise.ru</a>
+            </li>
+            <li class="footer__list-item">
+              <img src="./images/icons/geo-icon.svg" alt="Адрес" class="footer__icon" />
+              <a href="#" class="footer__link">г.Москва, ул. Пушкина 19</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <script src="./scripts.js"></script>
+  </body>
+</html>
