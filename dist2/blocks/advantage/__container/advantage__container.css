@@ -1,0 +1,13 @@
+.advantage__container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 232px;
+  gap: 20px;
+}
+
+@media screen and (max-width: 1300px) {
+  .advantage__container {
+    padding-left: 0;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
